@@ -1,0 +1,40 @@
+{
+  "name": "upload_images_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "dev": "tsnd src/services/service.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.12.7",
+    "@types/supertest": "^6.0.2",
+    "babel-jest": "^29.7.0",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "multer": "^1.4.5-lts.1",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/mysql": "^2.15.26",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.4",
+    "sequelize": "^6.37.2"
+  }
+}
